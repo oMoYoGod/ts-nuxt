@@ -1,0 +1,47 @@
+{
+    "eslint.enable": true,
+    "eslint.options": {
+        "extensions": [
+            ".js",
+            ".jsx",
+            ".vue"
+        ]
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "vetur.validation.template": false,
+    "window.zoomLevel": 0.2,
+    "files.associations": {
+        "*.tpl": "html"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "search.exclude": {
+        "system/": true,
+        "!/system/**/*.ps*": true
+    },
+    "editor.minimap.enabled": true,
+    "editor.mouseWheelZoom": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "off",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "editor.formatOnSave": true,
+    "eslint.autoFixOnSave": true
+}
